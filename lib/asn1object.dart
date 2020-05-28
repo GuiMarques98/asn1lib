@@ -1,5 +1,12 @@
 part of asn1lib;
 
+// Tagging INTERGER(5) [2]
+// Normal:   00 00 02 01 05 - 00000000 00000000 00000010 00000001 00000101 
+// Implicit: 00 00 82 01 05 - 00000000 00000000 10000010 00000001 00000101
+// Explicit: A2 03 02 01 05 - 10100010 00000011 00000010 00000001 00000101
+
+
+
 ///
 /// Holds the encoded and decoded representation of an ASN1 object.
 ///
